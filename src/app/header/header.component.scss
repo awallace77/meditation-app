@@ -1,0 +1,21 @@
+.navbar{
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding-left: 30px;
+  padding-right: 30px
+}
+
+.logo{
+  width: 75px;
+  height: auto;
+  margin: auto;
+
+  &-container{
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+  }
+}

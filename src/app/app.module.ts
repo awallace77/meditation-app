@@ -8,6 +8,7 @@ import { MeditationListComponent } from './meditations/meditation-list/meditatio
 import { MeditationItemComponent } from './meditations/meditation-list/meditation-item/meditation-item.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserEditComponent } from './user-list/user-edit/user-edit.component';
+import { MeditationDetailComponent } from './meditations/meditation-detail/meditation-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserEditComponent } from './user-list/user-edit/user-edit.component';
     MeditationListComponent,
     MeditationItemComponent,
     UserListComponent,
-    UserEditComponent
+    UserEditComponent,
+    MeditationDetailComponent
   ],
   imports: [
     BrowserModule
