@@ -1,1 +1,17 @@
-<p>meditation-item works!</p>
+<div class="row">
+  <div class="col-xs-12">
+    <a href="#" class="list-group-item clearfix card">
+      <div class="pull-left">
+        <h4 class="list-group-heading">{{ element.name }}</h4>
+        <p class="list-group-item-text">{{ element.desc }}</p>
+        <p class="list-group-item-text">Duration: {{ element.duration }}</p>
+      </div>
+      <span class="pull-right">
+        <img [src]="element.imagePath" alt="" class="img-responsive" style="max-height: 50px;"/>
+      </span>
+    </a>
+
+  </div>
+</div>
+
+

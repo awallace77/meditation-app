@@ -1,1 +1,12 @@
-<app-meditation-item></app-meditation-item>
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New Meditation</button>
+  </div>
+</div>
+<hr />
+
+<app-meditation-item
+  *ngFor="let medi of meditations"
+  [element]="medi">
+</app-meditation-item>
+

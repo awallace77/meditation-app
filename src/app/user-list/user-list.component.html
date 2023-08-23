@@ -2,7 +2,14 @@
   <div class="col-xs-10">
     <app-user-edit></app-user-edit>
     <hr>
-    <p>The list</p>
+    <ul class="list-group">
+      <div class="list-group-item" *ngFor="let medi of meditations">
+      <h2>{{ medi.name }}</h2>
+      <p>{{ medi.desc }}</p>
+      <p>{{ medi.duration }}</p>
+      <button class="btn btn-primary">Begin Meditation</button>
+      </div>
+    </ul>
   </div>
 </div>
 

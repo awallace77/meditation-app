@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-meditation-item',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./meditation-item.component.scss']
 })
 export class MeditationItemComponent {
+
+  @Input()
+  element: {name: '', duration: 0, desc: '', imagePath: '' };
+
 
 }
